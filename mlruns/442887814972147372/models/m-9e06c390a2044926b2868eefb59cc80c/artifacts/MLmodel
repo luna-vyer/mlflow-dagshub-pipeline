@@ -1,0 +1,22 @@
+artifact_path: file:///c:/Users/lunav/Documents/GitHub/mlflow-dagshub-pipeline/mlruns/442887814972147372/models/m-9e06c390a2044926b2868eefb59cc80c/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.0
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.2
+mlflow_version: 3.1.1
+model_id: m-9e06c390a2044926b2868eefb59cc80c
+model_size_bytes: 4385237
+model_uuid: m-9e06c390a2044926b2868eefb59cc80c
+prompts: null
+run_id: ec70a13f68a948b5bf1c19bd4815b272
+utc_time_created: '2025-06-25 14:55:10.136915'

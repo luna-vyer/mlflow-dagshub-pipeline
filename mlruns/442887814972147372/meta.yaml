@@ -1,0 +1,6 @@
+artifact_location: file:///c:/Users/lunav/Documents/GitHub/mlflow-dagshub-pipeline/mlruns/442887814972147372
+creation_time: 1750863252125
+experiment_id: '442887814972147372'
+last_update_time: 1750863252125
+lifecycle_stage: active
+name: RandomForestExperiment_2

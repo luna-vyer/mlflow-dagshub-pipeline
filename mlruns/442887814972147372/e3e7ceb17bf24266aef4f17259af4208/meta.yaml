@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/lunav/Documents/GitHub/mlflow-dagshub-pipeline/mlruns/442887814972147372/e3e7ceb17bf24266aef4f17259af4208/artifacts
+end_time: 1750863685701
+entry_point_name: ''
+experiment_id: '442887814972147372'
+lifecycle_stage: active
+run_id: e3e7ceb17bf24266aef4f17259af4208
+run_name: chill-stoat-946
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750863682376
+status: 3
+tags: []
+user_id: luna-vyer

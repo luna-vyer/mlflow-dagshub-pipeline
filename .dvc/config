@@ -1,0 +1,4 @@
+[core]
+    remote = origin
+['remote "origin"']
+    url = https://dagshub.com/luna-vyer/mlflow-dagshub-pipeline.dvc

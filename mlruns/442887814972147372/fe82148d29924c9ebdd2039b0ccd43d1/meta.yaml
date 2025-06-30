@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/lunav/Documents/GitHub/mlflow-dagshub-pipeline/mlruns/442887814972147372/fe82148d29924c9ebdd2039b0ccd43d1/artifacts
+end_time: 1750863389369
+entry_point_name: ''
+experiment_id: '442887814972147372'
+lifecycle_stage: active
+run_id: fe82148d29924c9ebdd2039b0ccd43d1
+run_name: adventurous-foal-648
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750863385008
+status: 4
+tags: []
+user_id: luna-vyer

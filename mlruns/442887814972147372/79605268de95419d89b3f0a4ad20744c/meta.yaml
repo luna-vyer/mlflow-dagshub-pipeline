@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/lunav/Documents/GitHub/mlflow-dagshub-pipeline/mlruns/442887814972147372/79605268de95419d89b3f0a4ad20744c/artifacts
+end_time: 1750863405834
+entry_point_name: ''
+experiment_id: '442887814972147372'
+lifecycle_stage: active
+run_id: 79605268de95419d89b3f0a4ad20744c
+run_name: thundering-stoat-101
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750863402226
+status: 3
+tags: []
+user_id: luna-vyer
