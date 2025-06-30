@@ -3,8 +3,8 @@ import mlflow.pyfunc
 
 app = FastAPI()
 
-# Charger le modèle à partir du dossier mlruns
-model = mlflow.pyfunc.load_model("mlruns/0/e3e7ceb17bf24266aef4f17259af4208/artifacts/random_forest_model")
+
+model = mlflow.pyfunc.load_model("model")
 
 @app.get("/")
 def index():
