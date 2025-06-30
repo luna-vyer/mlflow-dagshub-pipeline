@@ -1,16 +1,21 @@
-from fastapi import FastAPI
-import mlflow.pyfunc
+from flask import Flask, request, jsonify
+import joblib
 
-app = FastAPI()
+app = Flask(__name__)
 
+# Charger le modèle
+model = joblib.load("random_forest_model.pkl")
 
-model = mlflow.pyfunc.load_model("model")
+@app.route("/", methods=["GET"])
+def root():
+    return jsonify({"message": "Model API is running"})
 
-@app.get("/")
-def index():
-    return {"message": "Model API is running"}
+@app.route("/predict", methods=["POST"])
+def predict():
+    data = request.get_json()
+    features = data["features"]
+    prediction = model.predict([features])
+    return jsonify({"prediction": prediction.tolist()})
 
-@app.post("/predict")
-def predict(data: dict):
-    prediction = model.predict([list(data.values())])
-    return {"prediction": prediction.tolist()}
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=8000)
