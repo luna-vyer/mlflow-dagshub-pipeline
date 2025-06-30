@@ -1,0 +1,10 @@
+artifact_location: file:///c:/Users/lunav/Documents/GitHub/mlflow-dagshub-pipeline/mlruns/442887814972147372/models/m-7cbca0f47f5d44e4a60cc670e0ad8f06/artifacts
+creation_timestamp: 1751288125692
+experiment_id: '442887814972147372'
+last_updated_timestamp: 1751288150054
+model_id: m-7cbca0f47f5d44e4a60cc670e0ad8f06
+model_type: null
+name: random_forest_model_2
+source_run_id: 03573c923f834dbab04428f3d162bb6e
+status: 2
+status_message: null

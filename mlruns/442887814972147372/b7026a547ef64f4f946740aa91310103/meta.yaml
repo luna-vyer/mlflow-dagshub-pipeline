@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/lunav/Documents/GitHub/mlflow-dagshub-pipeline/mlruns/442887814972147372/b7026a547ef64f4f946740aa91310103/artifacts
+end_time: 1751288156707
+entry_point_name: ''
+experiment_id: '442887814972147372'
+lifecycle_stage: active
+run_id: b7026a547ef64f4f946740aa91310103
+run_name: illustrious-lark-91
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751288150137
+status: 3
+tags: []
+user_id: luna-vyer
